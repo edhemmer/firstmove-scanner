@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/discovery",
+      "destination": "https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=10000&offset=0&download=true"
+    }
+  ]
+}

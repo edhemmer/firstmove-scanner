@@ -1,8 +1,28 @@
 {
   "rewrites": [
     {
+      "source": "/discovery-most",
+      "destination": "https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?count=250&scrIds=most_actives"
+    },
+    {
+      "source": "/discovery-small",
+      "destination": "https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?count=250&scrIds=small_cap_gainers"
+    },
+    {
+      "source": "/discovery-aggressive",
+      "destination": "https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?count=250&scrIds=aggressive_small_caps"
+    },
+    {
+      "source": "/discovery-gainers",
+      "destination": "https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?count=250&scrIds=day_gainers"
+    },
+    {
+      "source": "/discovery-shorted",
+      "destination": "https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?count=100&scrIds=most_shorted_stocks"
+    },
+    {
       "source": "/discovery",
-      "destination": "https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?count=100&scrIds=most_actives"
+      "destination": "https://query1.finance.yahoo.com/v1/finance/screener/predefined/saved?count=250&scrIds=most_actives"
     }
   ]
 }
